@@ -179,8 +179,6 @@ ul {
 }
 .advantages-container {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .advantages-list {
   display: flex;
@@ -200,7 +198,7 @@ ul {
   padding-bottom: 72px;
 }
 .our-services-container {
-  padding-bottom: 120px;
+  padding-top: 0;
 }
 .list-ourservices {
   display: flex;
