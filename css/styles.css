@@ -158,7 +158,8 @@ ul {
   cursor: pointer;
   font-family: var(--main-font-family-for-site);
   padding: 16px 32px;
-  border: navajowhite;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Секция our advantages*/
