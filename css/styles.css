@@ -14,6 +14,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.padding-for-section-index {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
 /* Все цвета и шрифты сайта*/
 :root {
   --main-color-background: #e5e5e5;
@@ -122,10 +126,11 @@ ul {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-left: 0;
 }
 .header-adress {
   display: flex;
-  margin-right: auto;
+  margin-left: auto;
   gap: 40px;
 }
 /*Секция герой*/
@@ -143,7 +148,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .button-hero {
   background-color: var(--accent-text-color-two);
@@ -153,10 +158,8 @@ ul {
   line-height: 1.5;
   cursor: pointer;
   font-family: var(--main-font-family-for-site);
-  display: block;
-  margin: 0 auto 48px auto;
   padding: 16px 32px;
-  border-radius: 4px;
+  border: navajowhite;
 }
 
 /* Секция our advantages*/
@@ -182,6 +185,9 @@ ul {
 .advantages-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin-right: 0;
+  justify-content: center;
 }
 /*Секция What are we doing*/
 .title-our-services {
@@ -199,6 +205,9 @@ ul {
 .list-ourservices {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin-right: 0;
+  justify-content: center;
 }
 /*Секция Our Team*/
 .section-our-team {
@@ -234,6 +243,9 @@ ul {
 .our-team-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin-right: 0;
+  justify-content: center;
 }
 .images-our-team {
   padding-bottom: 32px;
@@ -250,7 +262,7 @@ ul {
   color: var(--footer-text);
   width: 264px;
   height: 72px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .footer-container {
   padding-top: 100px;
@@ -304,7 +316,6 @@ ul {
   justify-content: center;
   gap: 24px;
 }
-
 .button-portfolio-li {
   flex-basis: calk((100%-48px)/3);
 }
