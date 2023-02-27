@@ -4,7 +4,7 @@ body {
   background: var(--title-hero-button);
 }
 .container {
-  width: 1158px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -285,26 +285,31 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   color: var(--accent-text-color);
+  padding: 32px 54px 8px 16px;
 }
 .paraghraph-text-portfolio {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-of-paraghraphs);
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 .images-portfolio-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: 0;
+  margin-right: 0;
   justify-content: center;
+  gap: 24px;
 }
 
 .button-portfolio-li {
-  gap: 24px;
   flex-basis: calk((100%-48px)/3);
-}
-.img-container-portfolio {
 }
 .text-portfolio-box {
   border: 1px solid #e7e9fc;
   border-radius: 0px 0px 4px 4px;
+}
+.section-portfolio {
+  margin-bottom: 120px;
 }
