@@ -57,8 +57,8 @@ p {
   margin: 0;
 }
 ul {
-  margin: o;
-  padding: o;
+  margin: 0;
+  padding: 0;
 }
 /* Logo*/
 .logo {
@@ -112,11 +112,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav {
   display: flex;
@@ -160,6 +160,8 @@ ul {
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  letter-spacing: 0.04em;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -171,7 +173,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .text-our-advantages {
   color: var(--color-of-paraghraphs);
@@ -198,7 +200,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .our-services-container {
   padding-top: 0;
@@ -214,14 +216,14 @@ ul {
 .section-our-team {
   background-color: var(--not-white-color);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .title-section-our-team {
   color: var(--accent-text-color);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .images-our-team {
   background-color: var(--title-hero-button);
@@ -232,8 +234,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .proffesionals-of-our-team {
   color: var(--color-of-paraghraphs);
@@ -252,6 +253,9 @@ ul {
   padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-radius: 0px 0px 4px 4px;
+}
+.images-our-team-img {
+  margin-bottom: 32px;
 }
 /*Футер*/
 .footer {
@@ -287,8 +291,7 @@ ul {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -300,14 +303,12 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   color: var(--accent-text-color);
-  padding: 32px 54px 8px 16px;
+  margin-bottom: 8px;
 }
 .paraghraph-text-portfolio {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-of-paraghraphs);
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
 .images-portfolio-list {
   display: flex;
@@ -323,7 +324,11 @@ ul {
 .text-portfolio-box {
   border: 1px solid #e7e9fc;
   border-radius: 0px 0px 4px 4px;
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .section-portfolio {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 96px;
 }
